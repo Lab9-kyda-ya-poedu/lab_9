@@ -1,0 +1,46 @@
+.page {
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: 'Open Sans', 'PT Sans', 'Roboto', 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #1a1a1a;
+  background-color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+.page *,
+.page *::before,
+.page *::after {
+  box-sizing: inherit;
+}
+
+.page__content {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Section backgrounds */
+.page__section {
+  width: 100%;
+}
+
+.page__section_theme_light {
+  background-color: #ffffff;
+}
+
+.page__section_theme_white {
+  background-color: #ffffff;
+}
+
+.page__section_theme_peach {
+  background-color: #f5ddd1;
+}
+
+.page__section_theme_coral {
+  background-color: #f2c9b8;
+}
+
