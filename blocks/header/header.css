@@ -71,6 +71,22 @@
   
   .header__link_position_right {
     margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .header {
+    padding: 12px 16px;
+    gap: 12px;
+  }
+  
+  .header__link {
+    font-size: 12px;
+  }
+  
+  .header__nav {
+    gap: 10px;
   }
 }
 
