@@ -1,0 +1,136 @@
+.place {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 500px;
+}
+
+.place_reverse {
+  direction: rtl;
+}
+
+.place_reverse > * {
+  direction: ltr;
+}
+
+.place__image-container {
+  position: relative;
+  overflow: hidden;
+  min-height: 400px;
+}
+
+.place__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.place__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px 80px;
+}
+
+.place_theme_gray .place__content {
+  background-color: #f7f7f7;
+}
+
+.place_theme_peach .place__content {
+  background-color: #f5ddd1;
+}
+
+.place__title {
+  font-family: 'Cormorant Garamond', 'Georgia', serif;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #1a1a1a;
+  margin: 0 0 40px;
+}
+
+.place__text {
+  font-family: 'Source Sans Pro', 'Arial', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #1a1a1a;
+  margin: 0 0 20px;
+}
+
+.place__text:last-of-type {
+  margin-bottom: 0;
+}
+
+.place__signature {
+  font-family: 'Source Sans Pro', 'Arial', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #1a1a1a;
+  margin: 20px 0 0;
+}
+
+/* Tablet */
+@media screen and (max-width: 1024px) {
+  .place__content {
+    padding: 40px 48px;
+  }
+  
+  .place__title {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .place__text {
+    font-size: 13px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+  .place {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+  
+  .place_reverse {
+    direction: ltr;
+  }
+  
+  .place__image-container {
+    min-height: 300px;
+    order: 1;
+  }
+  
+  .place__content {
+    order: 2;
+    padding: 32px 24px;
+  }
+  
+  .place__title {
+    font-size: 28px;
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .place__image-container {
+    min-height: 250px;
+  }
+  
+  .place__content {
+    padding: 24px 20px;
+  }
+  
+  .place__title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .place__text {
+    font-size: 13px;
+  }
+}
+
