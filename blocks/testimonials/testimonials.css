@@ -1,0 +1,120 @@
+.testimonials {
+  padding: 80px 40px;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.testimonials__header {
+  margin-bottom: 60px;
+}
+
+.testimonials__label {
+  font-family: 'Source Sans Pro', 'Arial', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #e8a087;
+  margin: 0 0 16px;
+}
+
+.testimonials__title {
+  font-family: 'Cormorant Garamond', 'Georgia', serif;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #1a1a1a;
+  margin: 0;
+  max-width: 400px;
+}
+
+.testimonials__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.testimonials__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonials__author {
+  font-family: 'Source Sans Pro', 'Arial', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #1a1a1a;
+  margin: 0 0 16px;
+}
+
+.testimonials__quote {
+  font-family: 'Source Sans Pro', 'Arial', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+/* Tablet */
+@media screen and (max-width: 1024px) {
+  .testimonials {
+    padding: 60px 32px;
+  }
+  
+  .testimonials__header {
+    margin-bottom: 48px;
+  }
+  
+  .testimonials__title {
+    font-size: 30px;
+  }
+  
+  .testimonials__list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+  .testimonials {
+    padding: 48px 24px;
+  }
+  
+  .testimonials__header {
+    margin-bottom: 40px;
+  }
+  
+  .testimonials__title {
+    font-size: 28px;
+    max-width: 100%;
+  }
+  
+  .testimonials__list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .testimonials {
+    padding: 40px 20px;
+  }
+  
+  .testimonials__list {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  
+  .testimonials__title {
+    font-size: 24px;
+  }
+}
+
