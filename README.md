@@ -4,8 +4,8 @@
 
 ## 🔗 Ссылки
 
-- **GitHub Pages**: [Открыть сайт](https://your-organization.github.io/kuda-ya-poedu/)
-- **Репозиторий**: [GitHub](https://github.com/your-organization/kuda-ya-poedu)
+- **GitHub Pages**: [Открыть сайт](https://lab9-kyda-ya-poedu.github.io/lab_9/)
+- **Репозиторий**: [GitHub](https://github.com/Lab9-kyda-ya-poedu/lab_9.git)
 
 ## 📋 О проекте
 
@@ -87,8 +87,8 @@ git clone https://github.com/your-organization/kuda-ya-poedu.git
 Проект выполнен в рамках курса Web-дизайна.
 
 ### Разработчики:
-- **Разработчик 1** — структура проекта, header, intro секция
-- **Разработчик 2** — секции мест, testimonials, footer
+- **daarwhs** — структура проекта, header, intro секция
+- **annabarba-2005** — секции мест, testimonials, footer
 
 ## ✅ Чек-лист
 
@@ -105,5 +105,5 @@ git clone https://github.com/your-organization/kuda-ya-poedu.git
 
 ---
 
-© 2020 Куда я поеду
+© 2025 Куда я поеду. Кострицкая Дарья и Барба Анна
 
