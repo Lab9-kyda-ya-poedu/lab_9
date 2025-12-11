@@ -1,0 +1,38 @@
+.footer {
+  background-color: #f2c9b8;
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.footer__copyright {
+  font-family: 'Source Sans Pro', 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+/* Tablet */
+@media screen and (max-width: 1024px) {
+  .footer {
+    padding: 60px 32px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 48px 24px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer {
+    padding: 40px 20px;
+  }
+  
+  .footer__copyright {
+    font-size: 14px;
+  }
+}
+
